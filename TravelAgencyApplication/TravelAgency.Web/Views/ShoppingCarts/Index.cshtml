@@ -1,0 +1,78 @@
+﻿@model IEnumerable<TravelAgency.Domain.Domain.Booking>
+@using TravelAgency.Domain.Payment
+@using Microsoft.Extensions.Options
+@inject IOptions<StripeSettings> Stripe
+
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<div class="container mt-5">
+    @if (Model.Sum(b => b.Price) != 0)
+    {
+        var totalPrice = Model.Sum(b => b.Price);
+        <form asp-controller="ShoppingCarts" asp-action="PayOrder" method="post">
+            <article>
+                <script src="https://checkout.stripe.com/checkout.js"
+                        class="stripe-button"
+                        data-key="@Stripe.Value.PublishableKey"
+                        data-locale="auto"
+                        data-description="TravelAgency Application Payment"
+                        data-amount="@(totalPrice*100)"
+                        data-label="Pay @totalPrice€">
+                </script>
+            </article>
+        </form>
+    }
+    <table class="table mt-2">
+        <thead class="table-dark">
+            <tr>
+                <th>Travel Package</th>
+                <th>Booking Date</th>
+                <th>Number of Travelers</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var booking in Model)
+                {
+                    <tr>
+                        <td>@booking.Package?.Name</td>
+                        <td>@booking.BookingDate.Day.@booking.BookingDate.Month.@booking.BookingDate.Year</td>
+                        <td>@booking.NumberOfTravelers</td>
+                        <td>@booking.Price €</td>
+                        <td>
+                            <form class="p-1" asp-controller="ShoppingCarts" asp-action="RemoveFromCart" method="post">
+                                <input type="hidden" name="bookingId" value="@booking.Id" />
+                                <button class="btn btn-danger">Remove from cart</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5">No items in your shopping cart</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            @if (Model != null && Model.Any())
+            {
+                var totalPrice = Model.Sum(b => b.Price);
+
+                <tr>
+                    <td><strong>Total:</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>@totalPrice €</strong></td>
+                    <td></td>
+                </tr>
+            }
+        </tfoot>
+    </table>
+</div>

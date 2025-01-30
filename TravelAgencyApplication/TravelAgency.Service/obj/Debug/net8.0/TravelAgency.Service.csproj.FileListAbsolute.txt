@@ -1,0 +1,17 @@
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\bin\Debug\net8.0\TravelAgency.Service.deps.json
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\bin\Debug\net8.0\TravelAgency.Service.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\bin\Debug\net8.0\TravelAgency.Service.pdb
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\bin\Debug\net8.0\TravelAgency.Domain.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\bin\Debug\net8.0\TravelAgency.Repository.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\bin\Debug\net8.0\TravelAgency.Domain.pdb
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\bin\Debug\net8.0\TravelAgency.Repository.pdb
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.csproj.AssemblyReference.cache
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.AssemblyInfoInputs.cache
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.AssemblyInfo.cs
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.csproj.CoreCompileInputs.cache
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\TravelAg.8873A460.Up2Date
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\refint\TravelAgency.Service.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.pdb
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\ref\TravelAgency.Service.dll

@@ -1,0 +1,114 @@
+﻿@model TravelAgency.Domain.Domain.TravelPackage
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>TravelPackage</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DurationInDays" class="control-label"></label>
+                <input asp-for="DurationInDays" class="form-control" />
+                <span asp-validation-for="DurationInDays" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Type" class="control-label"></label>
+                <input asp-for="Type" class="form-control" />
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxSpots" class="control-label"></label>
+                <input asp-for="MaxSpots" class="form-control" />
+                <span asp-validation-for="MaxSpots" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TransportationDetails" class="control-label"></label>
+                <input asp-for="TransportationDetails" class="form-control" />
+                <span asp-validation-for="TransportationDetails" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="accommodationIds">Select Accommodations</label>
+                <select id="accommodationIds" name="accommodationIds" class="form-control" multiple>
+                    @foreach (var accommodation in ViewBag.Accommodations as List<TravelAgency.Domain.Domain.Accommodation>)
+                    {
+                        <option value="@accommodation.Id">@accommodation.Name</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="destinationIds">Select Destinations</label>
+                <select id="destinationIds" name="destinationIds" class="form-control" multiple>
+                    @foreach (var destination in ViewBag.Destinations as List<TravelAgency.Domain.Domain.Destination>)
+                    {
+                        <option value="@destination.Id">@destination.CityName</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Itineraries" class="control-label">Select Itineraries</label>
+                <select id="Itineraries" name="itinerariesIds" class="form-control" multiple="multiple">
+                    @foreach (var itinerary in ViewBag.Itineraries as List<TravelAgency.Domain.Domain.Itinerary>)
+                    {
+                        <option value="@itinerary.Id">@itinerary.Title</option>
+                    }
+                </select>
+                <span asp-validation-for="Itineraries" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

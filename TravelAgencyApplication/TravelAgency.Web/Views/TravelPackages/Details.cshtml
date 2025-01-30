@@ -1,0 +1,131 @@
+﻿@model TravelAgency.Domain.Domain.TravelPackage
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>TravelPackage</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DurationInDays)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DurationInDays)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StartDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StartDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EndDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price) €
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MaxSpots)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaxSpots)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TransportationDetails)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TransportationDetails)
+        </dd>
+    </dl>
+
+    <h5>Accommodations</h5>
+    @if (Model.AccommodationInPackages != null && Model.AccommodationInPackages.Any())
+    {
+        <ul>
+            @foreach (var accommodationInPackage in Model.AccommodationInPackages)
+            {
+                <li>
+                    <a class="text-decoration-none text-black" asp-action="Details" asp-controller="Accommodations" asp-route-Id="@accommodationInPackage.Accommodation.Id">@accommodationInPackage.Accommodation?.Name, @accommodationInPackage.Accommodation?.Type</a>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No accommodations are associated with this package.</p>
+    }
+
+    <h5>Destinations</h5>
+    @if (Model.DestinationInPackages != null && Model.DestinationInPackages.Any())
+    {
+        <ul>
+            @foreach (var destinationInPackage in Model.DestinationInPackages)
+            {
+                <li>
+                    <a class="text-decoration-none text-black" asp-action="Details" asp-controller="Destinations" asp-route-Id="@destinationInPackage.Destination.Id">@destinationInPackage.Destination?.CityName, @destinationInPackage.Destination?.CountryName</a>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No destinations are associated with this package.</p>
+    }
+
+    <h5>Itineraries</h5>
+    @if (Model.Itineraries != null && Model.Itineraries.Any())
+    {
+        <ul>
+            @foreach (var itineraries in Model.Itineraries.OrderBy(i => i.Day))
+            {
+                <li class="text-decoration-none">
+                    <a class="text-decoration-none text-black" asp-action="Details" asp-controller="Itineraries" asp-route-Id="@itineraries.Id">Day @itineraries.Day-@itineraries.Title</a>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No itineraries are associated with this package.</p>
+    }
+
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

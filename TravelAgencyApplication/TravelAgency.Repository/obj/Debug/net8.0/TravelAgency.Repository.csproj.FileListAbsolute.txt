@@ -1,0 +1,15 @@
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\bin\Debug\net8.0\TravelAgency.Repository.deps.json
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\bin\Debug\net8.0\TravelAgency.Repository.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\bin\Debug\net8.0\TravelAgency.Repository.pdb
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\bin\Debug\net8.0\TravelAgency.Domain.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\bin\Debug\net8.0\TravelAgency.Domain.pdb
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\obj\Debug\net8.0\TravelAgency.Repository.csproj.AssemblyReference.cache
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\obj\Debug\net8.0\TravelAgency.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\obj\Debug\net8.0\TravelAgency.Repository.AssemblyInfoInputs.cache
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\obj\Debug\net8.0\TravelAgency.Repository.AssemblyInfo.cs
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\obj\Debug\net8.0\TravelAgency.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\obj\Debug\net8.0\TravelAg.13BC5B12.Up2Date
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\obj\Debug\net8.0\TravelAgency.Repository.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\obj\Debug\net8.0\refint\TravelAgency.Repository.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\obj\Debug\net8.0\TravelAgency.Repository.pdb
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Repository\obj\Debug\net8.0\ref\TravelAgency.Repository.dll
