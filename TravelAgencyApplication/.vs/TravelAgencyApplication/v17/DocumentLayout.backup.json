@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|c:\\users\\iva\\desktop\\finki\\proekt\\travelagency\\travelagencyapplication\\travelagency.web\\views\\travelpackages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|solutionrelative:travelagency.web\\views\\travelpackages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\Views\\TravelPackages\\Index.cshtml",
+              "RelativeDocumentMoniker": "TravelAgency.Web\\Views\\TravelPackages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\Views\\TravelPackages\\Index.cshtml",
+              "RelativeToolTip": "TravelAgency.Web\\Views\\TravelPackages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T09:37:37.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Travel Agency";
+}
+
+<div style="background: url('https://images.unsplash.com/photo-1494783367193-149034c05e8f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center; background-size: cover; height: 80vh;">
+    <div class="pt-5">
+        <p class="fs-6 text text-light text-center">The best travel agency</p>
+        <hr class="border border-light-subtle border-2 w-25 mx-auto">
+        <p class="fs-1 text text-light text-center fw-normal font-monospace">Travel Agency</p>
+        
+        <form class="d-flex justify-content-center mt-4" asp-controller="TravelPackages" asp-action="Index" method="get">
+            <input type="text" name="searchQuery" class="form-control w-50" placeholder="Search for city or country..." />
+            <button type="submit" class="btn btn-dark ms-2">Search</button>
+        </form>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col mt-5">
+            <div class="card border border-0 text-center">
+                <h2>Our Travel Packages</h2>
+                <p>
+                    Uncover the World's Wonders with Our Exclusive Travel Packages – Your Gateway to Adventure, Relaxation, and Unforgettable Memories Awaits!
+                </p>
+                <div class="d-grid mx-auto">
+                    <a class="btn btn-dark rounded-5 px-4 mx-auto" asp-controller="TravelPackages" asp-action="Index">See our packages</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-5">
+            <div class="card border-0">
+                <img src="https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-5">
+            <div class="card border-0">
+                <img src="https://images.pexels.com/photos/1275393/pexels-photo-1275393.jpeg?auto=compress&cs=tinysrgb&w=600" alt="...">
+            </div>
+        </div>
+        <div class="col mt-5">
+            <div class="card border border-0 text-center">
+                <h2>About Us</h2>
+                <p>
+                    At [Your Travel Agency Name], we're not just about booking trips, we're about crafting unforgettable experiences! Whether you're dreaming of sipping coffee in a Parisian café, hiking through the stunning landscapes of the Andes, or lounging on a pristine beach in the Maldives, we're here to make your travel dreams come true. Our team of adventure enthusiasts, culture lovers, and seasoned travelers is dedicated to curating the perfect journey just for you. We believe that travel is more than just a getaway – it's an opportunity to create memories that last a lifetime. With personalized itineraries, insider tips, and a passion for discovery, we promise to take you beyond the ordinary. Ready to pack your bags? Let’s explore the world together, one incredible destination at a time!
+                </p>
+            </div>
+        </div>
+    </div>
+    @* <div class="row mt-4">
+        <div class="col mt-5">
+            <div class="card border border-0 text-center">
+                <h2>Contact Us</h2>
+                <p>
+                    We'd love to hear from you! Whether you have questions about our travel packages, need help planning your next adventure, or simply want to chat about your dream destinations, our team is here to assist you every step of the way. Reach out to us today, and let us help you create a journey that's as unique as you are. We’re always ready to help you get one step closer to your next unforgettable travel experience. Let's start your adventure together!
+                </p>
+                <div class="d-grid mx-auto">
+                    <a class="btn btn-dark rounded-5 px-4 mx-auto" href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-5">
+            <div class="card border-0">
+                <img src="https://images.pexels.com/photos/1058959/pexels-photo-1058959.jpeg?auto=compress&cs=tinysrgb&w=600" alt="...">
+            </div>
+        </div>
+    </div> *@
+</div>
+

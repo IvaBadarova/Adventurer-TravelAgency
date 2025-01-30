@@ -1,0 +1,70 @@
+﻿@model IEnumerable<TravelAgency.Domain.Domain.TravelPackage>
+
+@{
+    ViewData["Title"] = "Travel Packages";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <div class="m-3">
+        <a class="btn btn-success" asp-controller="TravelPackages" asp-action="Create">Add new package</a>
+    </div>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger text-center" role="alert">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <div class="container mt-5">
+        @if (!string.IsNullOrEmpty(ViewBag.SearchQuery))
+        {
+            <h5>Search Results for "@ViewBag.SearchQuery"</h5>
+            <hr />
+        }
+
+        @for(int i=0;i<Model.Count(); i++)
+        {
+            var item = Model.ElementAt(i);
+            if(i % 3 == 0)
+            {
+                @:<div class="row">
+            }
+            <div class="col-3 m-4">
+
+                <div class="card" style="width: 22rem; height: 48rem"> 
+                    <img class="card-img-top" src="@item.Image" alt="Card image cap" style="height: 210px">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text">@item.Description</p>
+                        <p class="text-muted">@item.StartDate.Day.@item.StartDate.Month.@item.StartDate.Year - @item.EndDate.Day.@item.EndDate.Month.@item.EndDate.Year</p>
+                        <h6>Price: @item.Price €</h6>
+                    <small class="text-success">Available spots: @(item.MaxSpots - (item.Bookings?.Sum(b => b.NumberOfTravelers) ?? 0))</small>
+                </div>
+                <div class="card-footer">
+                    <a class="btn btn-outline-secondary" asp-controller="TravelPackages" asp-action="Details" asp-route-Id="@item.Id">Details</a>
+                    <a class="btn btn-outline-primary" asp-controller="TravelPackages" asp-action="Edit" asp-route-Id="@item.Id">Edit</a>
+                    <a class="btn btn-outline-danger" asp-controller="TravelPackages" asp-action="Delete" asp-route-Id="@item.Id">Delete</a>
+                    <form method="post" asp-action="BookPackage" asp-route-id="@item.Id" class="pt-1">
+                        <label for="numberOfTravelers-@item.Id">Book for:</label>
+                            <input type="number" id="numberOfTravelers-@item.Id" name="numberOfTravelers" min="1" max="@item.MaxSpots" required />
+                            <button type="submit" class="btn btn-success">Book</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        if(i % 3 == 2)
+        {
+            @:</div>
+        }
+    }
+
+    @if (!Model.Any())
+    {
+        <p>No travel packages match your search. Try a different city or country!</p>
+    }
+    </div>
+</div>

@@ -1,0 +1,79 @@
+﻿@model TravelAgency.Domain.Domain.Itinerary
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Itinerary</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Day)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Day)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TransportationDetails)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TransportationDetails)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AccomodationDetails)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AccomodationDetails)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TravelPackage)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TravelPackage.Name)
+        </dd>
+    </dl>
+
+    <h5>Activities</h5>
+    @if (Model.ActivityInItineraries != null && Model.ActivityInItineraries.Any())
+    {
+        <ul>
+            @foreach (var activityInItinerary in Model.ActivityInItineraries)
+            {
+                <li>
+                    <a class="text-decoration-none text-black" asp-action="Details" asp-controller="Activities" asp-route-Id="@activityInItinerary.Activity.Id">@activityInItinerary.Activity?.Name</a>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No activities are associated with this itinerary.</p>
+    }
+
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,12 @@
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\bin\Debug\net8.0\TravelAgency.Domain.deps.json
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\bin\Debug\net8.0\TravelAgency.Domain.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\bin\Debug\net8.0\TravelAgency.Domain.pdb
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.AssemblyInfoInputs.cache
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.AssemblyInfo.cs
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\refint\TravelAgency.Domain.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.pdb
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\ref\TravelAgency.Domain.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.csproj.AssemblyReference.cache
