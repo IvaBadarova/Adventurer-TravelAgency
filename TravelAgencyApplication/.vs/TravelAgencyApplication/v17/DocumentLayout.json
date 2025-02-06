@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|c:\\users\\iva\\desktop\\finki\\proekt\\travelagency\\travelagencyapplication\\travelagency.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|solutionrelative:travelagency.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|c:\\users\\iva\\desktop\\finki\\proekt\\travelagency\\travelagencyapplication\\travelagency.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|solutionrelative:travelagency.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|c:\\users\\iva\\desktop\\finki\\proekt\\travelagency\\travelagencyapplication\\travelagency.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|solutionrelative:travelagency.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|c:\\users\\iva\\desktop\\finki\\proekt\\travelagency\\travelagencyapplication\\travelagency.web\\views\\travelpackages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|solutionrelative:travelagency.web\\views\\travelpackages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|c:\\users\\iva\\desktop\\finki\\proekt\\travelagency\\travelagencyapplication\\travelagency.web\\views\\travelpackages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{403D1C47-7C80-451A-99E1-64314742AEC2}|TravelAgency.Web\\TravelAgency.Web.csproj|solutionrelative:travelagency.web\\views\\travelpackages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +39,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -34,6 +59,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\Views\\TravelPackages\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TravelAgency.Web\\Views\\TravelPackages\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\Views\\TravelPackages\\Delete.cshtml*",
+              "RelativeToolTip": "TravelAgency.Web\\Views\\TravelPackages\\Delete.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T10:18:15.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\Views\\TravelPackages\\Details.cshtml",
+              "RelativeDocumentMoniker": "TravelAgency.Web\\Views\\TravelPackages\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\Views\\TravelPackages\\Details.cshtml*",
+              "RelativeToolTip": "TravelAgency.Web\\Views\\TravelPackages\\Details.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T10:18:09.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TravelAgency.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "TravelAgency.Web\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T10:17:45.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TravelAgency.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "TravelAgency.Web\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T10:17:20.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "TravelAgency.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Iva\\Desktop\\FINKI\\Proekt\\TravelAgency\\TravelAgencyApplication\\TravelAgency.Web\\appsettings.json*",
+              "RelativeToolTip": "TravelAgency.Web\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T10:12:11.991Z",
+              "EditorCaption": ""
             }
           ]
         }

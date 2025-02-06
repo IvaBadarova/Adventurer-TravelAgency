@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - TravelAgency</title>
+    <title>@ViewData["Title"] - Adventurer</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/TravelAgency.Web.styles.css" asp-append-version="true" />
@@ -12,28 +12,11 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand text-dark" href="@Url.Action("Index", "Home")">TravelAgency</a>
+                <a class="navbar-brand text-dark" href="@Url.Action("Index", "Home")">Adventurer</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="TravelPackages" asp-action="Index">Travel Packages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Itineraries" asp-action="Index">Itineraries</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Activities" asp-action="Index">Activities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Accommodations" asp-action="Index">Accommodations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Destinations" asp-action="Index">Destinations</a>
-                        </li>
-                    </ul>
 
                     <div class="d-flex align-items-center ms-auto">
                         <a class="btn me-2 mb-1" asp-controller="ShoppingCarts" asp-action="Index" title="Shopping Cart">
@@ -56,7 +39,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - TravelAgency
+            &copy; 2024 - Adventurer
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

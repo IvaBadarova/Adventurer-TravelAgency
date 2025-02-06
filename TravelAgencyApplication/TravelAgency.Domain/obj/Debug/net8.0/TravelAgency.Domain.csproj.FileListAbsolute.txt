@@ -10,3 +10,4 @@ C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAge
 C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.pdb
 C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\ref\TravelAgency.Domain.dll
 C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.csproj.AssemblyReference.cache
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.sourcelink.json
