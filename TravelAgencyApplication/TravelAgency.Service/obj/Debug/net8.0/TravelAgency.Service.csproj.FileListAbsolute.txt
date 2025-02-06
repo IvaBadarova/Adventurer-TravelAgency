@@ -15,3 +15,4 @@ C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAge
 C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\refint\TravelAgency.Service.dll
 C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.pdb
 C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\ref\TravelAgency.Service.dll
+C:\Users\Iva\Desktop\FINKI\Proekt\TravelAgency\TravelAgencyApplication\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.sourcelink.json
